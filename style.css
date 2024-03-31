@@ -31,5 +31,170 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	color: #242424;
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: "Lora", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
 
+header {
+	display: flex;
+	padding: 30px 0;
+}
+
+section {
+	padding: 80px 0;
+}
+
+header,
+.welcome-content,
+.hero-content,
+.today-content,
+.approach-content {
+	max-width: 1100px;
+	margin: auto;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Playfair Display", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 1.25;
+	margin-top: 0;
+}
+
+h2,
+h3 {
+	color: #3e606b;
+}
+
+h1 {
+	font-size: 52px;
+	color: #f0f0f0;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 18px;
+}
+
+.hero-text {
+	font-style: italic;
+	color: #f0f0f0;
+	font-size: 24px;
+	padding-right: 440px;
+}
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.welcome-content {
+	display: flex;
+	align-items: center;
+}
+
+.welcome-left {
+	margin-right: 30px;
+}
+
+.buttons {
+	margin-top: 40px;
+}
+
+.button-products {
+	padding: 15px 40px;
+	background-color: #f195b2;
+	border-radius: 30px;
+	text-decoration: none;
+	color: white;
+}
+
+.button-products:hover {
+	background-color: #d2567d;
+}
+
+.today {
+	background-color: #f0f0f0;
+}
+
+.products {
+	display: flex;
+	gap: 30px;
+}
+
+.product {
+	background-color: white;
+}
+
+.description {
+	padding: 20px;
+}
+
+.products img {
+	max-width: 100%;
+	height: auto;
+}
+
+.photo {
+	border-radius: 5px;
+}
+
+.approach-content {
+	display: flex;
+	align-items: center;
+}
+
+.approach-right {
+	margin-left: 30px;
+}
+
+.logo {
+	width: 170px;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-end;
+	margin: 0;
+	align-items: center;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #242424;
+}
+
+.menu li {
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+
+.menu li:hover {
+	background-color: #d2567d;
+}
+
+.menu a:hover {
+	color: white;
+}
+
+footer {
+	background-color: #303339;
+	color: #f0f0f0;
+	text-align: center;
+	padding: 30px 0;
+}
